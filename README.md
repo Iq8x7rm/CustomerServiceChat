@@ -14,3 +14,6 @@ Client
 Once application started, client must wait for server to start 
 the session. Once session is started, client can send messages 
 to server.
+
+Partial code including code for serverThread extends thread and 
+clientThread extends thread was taken from college class. 
