@@ -1,10 +1,10 @@
 # CustomerServiceChat
 
+Much code, including the code for serverThread extends thread and 
+clientThread extends thread, was taken from a college class. 
+
 Server and Client applications allow communication between a 
 server (representative) and client. 
-
-Code, including the code for serverThread extends thread and 
-clientThread extends thread, was taken from a college class. 
 
 Server:
 Clicking 'Next Client' will initiate the chat between server and client. 
