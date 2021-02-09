@@ -91,7 +91,7 @@ public class ClientGUI extends Application {
 		// If click enter button, typed up message will send
 		Scene communicationScene = new Scene(ClientGUIElements, 400, 600);
 		communicationScene.setOnKeyPressed(a -> {
-			if (a.getCode() == KeyCode.ENTER && sendMessage.isDisabled() == fale) {
+			if (a.getCode() == KeyCode.ENTER && sendMessage.isDisabled() == false) {
 				theClient.sendMessage(message.getText());
 				message.clear();
 			}
