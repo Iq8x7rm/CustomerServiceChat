@@ -84,8 +84,10 @@ public class ClientGUI extends Application {
 		
 		
 		sendMessage.setOnAction(a -> {
-			theClient.sendMessage(message.getText());
-			message.clear();
+			if (message.getText().equals("") == false) {
+				theClient.sendMessage(message.getText());
+				message.clear();
+			}
 		});
 		
 		// If click enter button, typed up message will send
