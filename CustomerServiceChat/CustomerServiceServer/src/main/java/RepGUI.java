@@ -197,7 +197,7 @@ public class RepGUI extends Application {
 		// If click enter button, typed up message will send
 		Scene communicationScene = new Scene(SessionElements, 600, 400);
 		communicationScene.setOnKeyPressed(a -> {
-			if (a.getCode() == KeyCode.ENTER) {
+			if (a.getCode() == KeyCode.ENTER && sendMessage.isDisabled() == false) {
 				myRepServer.allClients.get(0).sendMessage(message.getText());
 				message.clear();
 			}
