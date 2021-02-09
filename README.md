@@ -5,7 +5,7 @@ clientThread extends thread, was taken from a college class.
 
 CustomerServiceServer and CustomerServiceClient applications allow communication between a 
 server (representative) and client.
-(This project is programmed in a way that both applications open and run on the same computer)
+(This project is programmed in a way that both applications run on the same computer)
 
 server:
 Clicking 'Next Client' will start the chat between server and a waiting client. 
