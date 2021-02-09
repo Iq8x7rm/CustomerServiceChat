@@ -162,8 +162,10 @@ public class RepGUI extends Application {
 		
 		
 		sendMessage.setOnAction(a -> {
-			myRepServer.allClients.get(0).sendMessage(message.getText());
-			message.clear();
+			if (message.getText().equals("") == false) {
+				myRepServer.allClients.get(0).sendMessage(message.getText());
+				message.clear();
+			}
 		});
 		
 		
