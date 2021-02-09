@@ -1,6 +1,6 @@
 # CustomerServiceChat
 
-Much code, including the code for serverThread extends thread and 
+Much code, which includes the code for serverThread extends thread and 
 clientThread extends thread, was taken from a college class. 
 
 CustomerServiceServer and CustomerServiceClient applications allow communication between a 
@@ -20,5 +20,5 @@ to server.
 
 Functionality issues remain in the project.
 
-Much code, including the code for serverThread extends thread and 
+Much code, which includes the code for serverThread extends thread and 
 clientThread extends thread, was taken from a college class.
