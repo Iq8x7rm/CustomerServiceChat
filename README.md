@@ -1,7 +1,7 @@
 # CustomerServiceChat
 
-Much of the code, which includes the code for serverThread extends thread and 
-clientThread extends thread, was taken from a college class. 
+Much of the code, which includes the code for serverThread extends Thread and 
+clientThread extends Thread, was taken from a college class. 
 
 CustomerServiceServer and CustomerServiceClient applications allow communication between a 
 server (representative) and client.
